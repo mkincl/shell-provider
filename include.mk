@@ -2,8 +2,7 @@ NAME := shell
 VERSION := v1
 
 # Container target
-IMAGE_REGISTRY := ghcr.io/carlsmedstad
-IMAGE_SHELL := $(IMAGE_REGISTRY)/mkincl-$(NAME):$(VERSION)
+IMAGE_SHELL := ghcr.io/mkincl/$(NAME)-provider:$(VERSION)
 
 .PHONY: enter-container-$(NAME)
 enter-container-$(NAME):

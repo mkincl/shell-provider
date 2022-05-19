@@ -1,6 +1,6 @@
 # mkincl-shell
 
-[mkincl](https://github.com/carlsmedstad/mkincl) provider for shell script
+[mkincl](https://github.com/mkincl/mkincl) provider for shell script
 development.
 
 ## About
@@ -10,8 +10,8 @@ Provides targets for running:
 * [shfmt](https://github.com/mvdan/sh)
 * [shellcheck](https://github.com/koalaman/shellcheck)
 
-Provides the Docker image `ghcr.io/carlsmedstad/mkincl-shell:v1`:
+Provides the Docker image `ghcr.io/mkincl/shell-provider:v1`:
 
 ```sh
-podman pull ghcr.io/carlsmedstad/mkincl-shell:v1
+podman pull ghcr.io/mkincl/shell-provider:v1
 ```
