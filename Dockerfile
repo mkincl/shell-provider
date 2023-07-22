@@ -1,10 +1,10 @@
-FROM alpine:3.17
+FROM alpine:3.18
 
 RUN apk add --no-cache \
-    git=2.38.4-r1 \
-    make=4.3-r1
+    git=2.40.1-r0 \
+    make=4.4.1-r1
 
 # hadolint ignore=DL3059
 RUN apk add --no-cache \
-    shellcheck=0.8.0-r1 \
-    shfmt=3.5.1-r7
+    shellcheck=0.9.0-r1 \
+    shfmt=3.6.0-r4
